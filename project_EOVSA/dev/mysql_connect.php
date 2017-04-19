@@ -3,10 +3,10 @@
 // This file contains the database access information and establishes a connection to MySQL and selects the database.
 
 // Set the database access information as constants
-define('DB_USER','dbuser');
-define('DB_PASSWORD','myPassword');
+define('DB_USER','username');
+define('DB_PASSWORD','password');
 define('DB_HOST','localhost');
-define('DB_NAME','antstatus');
+define('DB_NAME','datebase');
 
 // Make the conncetion and then select the database.
 $dbc = @mysql_connect(DB_HOST, DB_USER, DB_PASSWORD) or die('Could not connect to MySQL: ' . mysql_error());

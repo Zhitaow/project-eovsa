@@ -78,7 +78,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="404.html">Data Archive</a>
+                        <a href="http://ovsa.njit.edu/dev/data-browsing/">Data Archive</a>
                     </li>
                     <li>
                         <a href="status.php#">Observing Status</a>
@@ -123,7 +123,7 @@
            <!-- Page Header -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Most rencent status
+                    <h1 class="page-header">Most recent status
                         <!-- <small>Most rencent status</small> -->
                     </h1>
                 </div>
@@ -235,8 +235,8 @@
           </div>
           <div class="tab-pane" id="tab2">
             <hr>
-            <div>
-              <table id="antenna_table" width="790">
+            <div class = "table-responsive">
+              <table id="antenna_table" class="table table-striped" width="790">
                 <?php
                       $status = array('oper' => 'Operational','rep' => 'Under Repair','oos' => 'Out of Service');
                       $color = array('oper' => 'color="#00aa00"','rep' => 'style="BACKGROUND-COLOR:#ffff00"', 'oos' => 'style="BACKGROUND-COLOR:#ff0000" color="#ffffff"');
